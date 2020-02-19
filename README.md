@@ -1,2 +1,2 @@
 # highmagicgames.github.io
-Мой первый хостинг
+ну я хз
