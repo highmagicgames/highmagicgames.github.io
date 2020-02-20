@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Russo One', sans-serif;
+    src: import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+   }
+#parent {position: relative;}
+#child {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 50%;
+	height: 30%;
+	margin: auto;
+}
+.header {
+  font-family: 'Russo One', sans-serif;
+  font-size: 40pt;
+  background: #000000;
+  color: #FFFFFF;
+  padding: 8px;
+  width:60%;
+}
+section{
+  font-family: 'Russo One', sans-serif;
+  background: #000000;
+  color: #FFFFFF;
+  width:30%;
+  position:fixed;
+  top:18%;
+  left:25%;
+  padding: 8px;
+  border: 1px solid #151515;
+}
+section2{
+  font-family: 'Russo One', sans-serif;
+  background: #000000;
+  color: #FFFFFF;
+  width:15%;
+  position:fixed;
+  top:18%;
+  right:25%;
+  padding: 8px;
+  border: 1px solid #151515;
+}
+section3{
+  font-family: 'Russo One', sans-serif;
+  background: #000000;
+  color: #FFFFFF;
+  width:14%;
+  position:fixed;
+  top:70%;
+  left:25%;
+  padding: 8px;
+  border: 1px solid #151515;
+}
+body {
+background-image:url(image/back.jpg) 100% 100% no-repeat; /* Добавляем фон */
+background-size: cover; /* Масштабируем фон */
+background-attachment: fixed; /* Фон страницы фиксируется */
+background-repeat: no-repeat;
